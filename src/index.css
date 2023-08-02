@@ -1,5 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-sidebar-color: #b8babf;
+  --color-sidebar-bg: #111827;
+  --color-sidebar-menu-color: #b5b6b6;
+  --color-sidebar-menu-content-even: #1f2838;
+  --color-sidebar-menu-content-odd: #192131;
+  --color-sidebar-menu-hover-bg: rgba(255, 255, 255, 0.04);
+  --color-sidebar-menu-hover-color: #ffffff;
+  --color-sidebar-menu-active-bg: rgba(255, 255, 255, 0.1);
+  --color-sidebar-menu-active-color: #ffffff;
+  --color-sidebar-menu-disabled-color: #575656;
+  --color-sidebar-menu-expand-icon-color: #b6b7b9;
+  --color-sidebar-header-user-info-name: #e4e6ed;
+  --color-sidebar-header-user-info-desc: #94a3b8;
+  --color-sidebar-section-title: #818cf8;
+  --color-sidebar-section-desc: #9ca3af;
+  --color-sidbar-toggle-title-bg: #000000;
+  --color-sidbar-toggle-title-color: #61dafb;
+  --color-topbar-color: #757575;
+  --color-topbar-dropdown-arrow: #65676c;
+  --color-card-bg: #ffffff;
+  --color-card-box-shadow: rgba(0, 0, 0, 0.25);
+  --color-modal-backdrop-bg: rgba(0, 0, 0, 0.75);
+  --color-modal-bg: #ffffff;
+  --color-pagecontent-title-color: #111827;
+  --color-pagecontent-subtitle-color: #8a8f99;
+  --color-error-innercontainer-color: #a5a9ad;
+  --color-error-innercontainer-flash-color: #cbd1d6;
+  --color-text-no-data: #aeb0b3;
+  --color-scrollbar-bg-color: #8a8a8a;
+  --color-scrollbar-hover-color: #9e9d9d;
+  --dropdown-link-hover-bg: #788692;
+  --dropdown-link-hover-color: #ffffff;
+  --dropdown-link-active-bg: #606a74;
+  --nav-link-color: #5490d6;
+  --body-bg-color: #eef2f6;
+  --color-text-note-primary: #6f6e6e;
+  --color-text-note-secondary: #a1a0a0;
+  --color-spinner: #1e88e5;
+
+  /* light */
+  --color-sidebar-color-light: #b8babf;
+  --color-sidebar-bg-light: #111827;
+  --color-sidebar-menu-color-light: #b5b6b6;
+  --color-sidebar-menu-content-even-light: #1f2838;
+  --color-sidebar-menu-content-odd-light: #192131;
+  --color-sidebar-menu-hover-bg-light: rgba(255, 255, 255, 0.04);
+  --color-sidebar-menu-hover-color-light: #ffffff;
+  --color-sidebar-menu-active-bg-light: rgba(255, 255, 255, 0.1);
+  --color-sidebar-menu-active-color-light: #ffffff;
+  --color-sidebar-menu-disabled-color-light: #575656;
+  --color-sidebar-menu-expand-icon-color-light: #b6b7b9;
+  --color-sidebar-header-user-info-name-light: #e4e6ed;
+  --color-sidebar-header-user-info-desc-light: #94a3b8;
+  --color-sidebar-section-title-light: #818cf8;
+  --color-sidebar-section-desc-light: #9ca3af;
+  --color-sidbar-toggle-title-bg-light: #000000;
+  --color-sidbar-toggle-title-color-light: #61dafb;
+  --color-topbar-color-light: #757575;
+  --color-topbar-dropdown-arrow-light: #65676c;
+  --color-card-bg-light: #ffffff;
+  --color-card-box-shadow-light: rgba(0, 0, 0, 0.25);
+  --color-modal-backdrop-bg-light: rgba(0, 0, 0, 0.75);
+  --color-modal-bg-light: #ffffff;
+  --color-pagecontent-title-color-light: #111827;
+  --color-pagecontent-subtitle-color-light: #8a8f99;
+  --color-error-innercontainer-color-light: #a5a9ad;
+  --color-error-innercontainer-flash-color-light: #cbd1d6;
+  --color-text-no-data-light: #aeb0b3;
+  --color-scrollbar-bg-color-light: #8a8a8a;
+  --color-scrollbar-hover-color-light: #9e9d9d;
+  --dropdown-link-hover-bg-light: #788692;
+  --dropdown-link-hover-color-light: #ffffff;
+  --dropdown-link-active-bg-light: #606a74;
+  --nav-link-color-light: #5490d6;
+  --body-bg-color-light: #eef2f6;
+  --color-text-note-primary-light: #6f6e6e;
+  --color-text-note-secondary-light: #a1a0a0;
+  --color-spinner-light: #1e88e5;
+
+  /* dark */
+  --color-sidebar-color-dark: #b8babf;
+  --color-sidebar-bg-dark: #111827;
+  --color-sidebar-menu-color-dark: #b5b6b6;
+  --color-sidebar-menu-content-even-dark: #1f2838;
+  --color-sidebar-menu-content-odd-dark: #192131;
+  --color-sidebar-menu-hover-bg-dark: rgba(255, 255, 255, 0.04);
+  --color-sidebar-menu-hover-color-dark: #ffffff;
+  --color-sidebar-menu-active-bg-dark: rgba(255, 255, 255, 0.1);
+  --color-sidebar-menu-active-color-dark: #ffffff;
+  --color-sidebar-menu-disabled-color-dark: #575656;
+  --color-sidebar-menu-expand-icon-color-dark: #b6b7b9;
+  --color-sidebar-header-user-info-name-dark: #e4e6ed;
+  --color-sidebar-header-user-info-desc-dark: #94a3b8;
+  --color-sidebar-section-title-dark: #818cf8;
+  --color-sidebar-section-desc-dark: #9ca3af;
+  --color-sidbar-toggle-title-bg-dark: #000000;
+  --color-sidbar-toggle-title-color-dark: #61dafb;
+  --color-topbar-color-dark: #757575;
+  --color-topbar-dropdown-arrow-dark: #65676c;
+  --color-card-bg-dark: #ffffff;
+  --color-card-box-shadow-dark: rgba(0, 0, 0, 0.25);
+  --color-modal-backdrop-bg-dark: rgba(0, 0, 0, 0.75);
+  --color-modal-bg-dark: #ffffff;
+  --color-pagecontent-title-color-dark: #111827;
+  --color-pagecontent-subtitle-color-dark: #8a8f99;
+  --color-error-innercontainer-color-dark: #a5a9ad;
+  --color-error-innercontainer-flash-color-dark: #cbd1d6;
+  --color-text-no-data-dark: #aeb0b3;
+  --color-scrollbar-bg-color-dark: #8a8a8a;
+  --color-scrollbar-hover-color-dark: #9e9d9d;
+  --dropdown-link-hover-bg-dark: #788692;
+  --dropdown-link-hover-color-dark: #ffffff;
+  --dropdown-link-active-bg-dark: #606a74;
+  --nav-link-color-dark: #5490d6;
+  --body-bg-color-dark: #eef2f6;
+  --color-text-note-primary-dark: #6f6e6e;
+  --color-text-note-secondary-dark: #a1a0a0;
+  --color-spinner-dark: #1e88e5;
+}
+
 body {
   margin: 0;
+  background-color: var(--body-bg-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +136,68 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* scrollbar Track */
+::-webkit-scrollbar-track {
+  background: var(--color-sidebar-bg-dark);
+}
+
+/* scrollbar Handle */
+::-webkit-scrollbar {
+  width: 0.36rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar-bg-color);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-scrollbar-hover-color);
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: var(--dropdown-link-hover-bg);
+  --bs-dropdown-link-hover-color: var(--dropdown-link-hover-color);
+  --bs-dropdown-link-active-bg: var(--dropdown-link-active-bg);
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  --bs-nav-link-color: var(--nav-link-color);
+}
+
+.elem-bounce-hover:hover {
+  animation: bounce-hover 1s; /* 1s duration */
+}
+
+@keyframes bounce-hover {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.625rem);
+  }
+}
+
+.elem-bounce-vertical-2-times {
+  animation: bounce-vertical-2-times 1s 2; /* 1s duration, 2 times */
+}
+
+@keyframes bounce-vertical-2-times {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-0.625rem);
+  }
+  75% {
+    transform: translateX(0.625rem);
+  }
 }

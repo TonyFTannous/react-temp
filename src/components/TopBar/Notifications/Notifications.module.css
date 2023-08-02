@@ -1,0 +1,66 @@
+.tabs {
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 3rem;
+  margin-right: 0.3rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: var(--color-text-note-primary);
+}
+
+.nodata {
+  color: var(--color-text-no-data);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.tab {
+  height: calc(100vh - 7rem);
+  overflow-y: auto;
+  padding-bottom: 2rem;
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+.tab::-webkit-scrollbar {
+  width: 0.3rem; /* Width of the scrollbar */
+}
+
+.tab::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5; /* Color of the thumb (the draggable part of the scrollbar) */
+}
+
+.tab::-webkit-scrollbar-thumb:hover {
+  background-color: #888; /* Color of the thumb when hovered */
+}
+
+.tab::-webkit-scrollbar-track {
+  background-color: #e9e8e8; /* Color of the track (the non-draggable part of the scrollbar) */
+}
+
+/* For Firefox and Edge */
+.tab {
+  scrollbar-color: #c5c5c5 #e9e8e8; /* Thumb color and track color, respectively */
+}

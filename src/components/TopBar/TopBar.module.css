@@ -1,0 +1,103 @@
+.container {
+  background-color: var(--body-bg-color);
+}
+
+.navCollapse {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.navLink {
+  position: relative;
+  margin-right: 0.5rem;
+  color: var(--color-topbar-color) !important;
+}
+
+.accountCountainer {
+  display: flex;
+  /* margin-right: 1rem; */
+}
+
+.userContainer {
+  margin-right: 0.4rem;
+}
+
+.user {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: var(--color-pagecontent-title-color);
+}
+
+.profession {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: right;
+  text-transform: capitalize;
+  color: var(--color-text-note-primary);
+}
+
+.brand {
+  min-width: 50vw;
+}
+
+@media (min-width: 992px) {
+  .brand {
+    min-width: 40vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .brand {
+    min-width: 25vw;
+  }
+}
+
+.navbarDropdown > a::after {
+  display: none !important;
+}
+
+/* .navbarDropdown > a::before {
+  display: none !important;
+} */
+
+/* .navbarDropdown > a::after {
+  color: var(--color-topbar-dropdown-arrow);
+  position: relative;
+  content: '' !important;
+  border-bottom: 0 !important;
+  margin-left: 0.255em !important;
+  display: inline-block !important;
+  vertical-align: 0.255em !important;
+  border-top: 0.3em solid !important;
+  border-left: 0.3em solid transparent !important;
+  border-right: 0.3em solid transparent !important;
+} */
+
+.themeContainer {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -0.33rem;
+  right: 0;
+}
+
+.imgContainer {
+  border: 0.1rem solid var(--color-text-no-data);
+  padding: 0.065rem;
+  border-radius: 50%;
+}
+
+.img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.offcanvasbody {
+  overflow: hidden !important;
+}

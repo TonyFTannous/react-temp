@@ -1,0 +1,30 @@
+.titleContainer {
+  padding: 0 24px;
+  margin-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+.title {
+  /* opacity: 0.9; */
+  color: var(--color-sidebar-section-title);
+  overflow: hidden;
+  font-weight: 600;
+  overflow: hidden;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.031rem;
+  text-transform: uppercase;
+}
+
+.description {
+  color: var(--color-sidebar-section-desc);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 0.68rem;
+  letter-spacing: 0.06px;
+}
+
+.titleCollapsed {
+  width: 3.125rem;
+}

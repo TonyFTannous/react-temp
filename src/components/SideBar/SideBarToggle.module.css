@@ -1,0 +1,62 @@
+.toggleContainer {
+  z-index: 9999;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-sidebar-bg);
+  height: 4.25rem;
+}
+
+.menuitem {
+  margin-bottom: 1.5rem;
+}
+
+.innerContainer {
+  display: flex;
+  padding-top: 1.5rem;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img {
+  width: 1.688rem;
+  height: 1.688rem;
+}
+
+.title {
+  max-width: 9.5rem;
+  background-color: var(--color-sidbar-toggle-title-bg);
+  padding: 0.3rem 0.4rem;
+  margin-left: 0.3rem;
+  color: var(--color-sidbar-toggle-title-color);
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iconContainer {
+  width: 12%;
+  min-width: 1.563rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.25rem;
+  position: relative;
+  top: -0.05rem;
+}
+
+.iconCollapse {
+  top: 0.7rem;
+}

@@ -1,0 +1,9 @@
+.home {
+  top: -0.1rem;
+  position: relative;
+}
+
+.routePlaceHolder {
+  font-weight: 500;
+  font-size: 0.83rem;
+}

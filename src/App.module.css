@@ -1,0 +1,10 @@
+.startCenterRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.descText {
+  margin-left: 0.3rem;
+}

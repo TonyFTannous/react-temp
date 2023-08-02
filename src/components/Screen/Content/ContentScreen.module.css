@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+}
+
+.breadcrumb {
+  padding-left: 0.7rem;
+}
+
+.main {
+  flex: 1;
+  border: none !important;
+}
+
+.title {
+  font-weight: 700 !important;
+  font-size: 1.7rem !important;
+  color: var(--color-pagecontent-title-color) !important;
+}
+
+.subtitle {
+  font-weight: 400 !important;
+  font-size: 0.875rem !important;
+  color: var(--color-pagecontent-subtitle-color) !important;
+}

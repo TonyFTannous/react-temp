@@ -1,0 +1,38 @@
+/* .sideBar > div {
+  border-radius: 0.625rem;
+} */
+
+.innercontainer {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+/* When the div is being hovered, show the scrollbar */
+.innercontainer:hover {
+  overflow: auto;
+}
+
+/* When the div is active (e.g., clicked or focused), show the scrollbar */
+.innercontainer:active {
+  overflow: auto;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+.elemBounceHover li:not(disabled) > a:hover > span > svg {
+  animation: elem-bounce-hover 1s; /* 1s duration */
+}
+
+@keyframes elem-bounce-hover {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.625rem);
+  }
+}
